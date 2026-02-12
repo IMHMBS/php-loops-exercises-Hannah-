@@ -1,0 +1,13 @@
+<?php
+echo "Numbers 1 to 20:" . PHP_EOL;
+
+for ($i = 1; $i <= 20; $i++) {
+    echo $i . PHP_EOL;
+}
+echo PHP_EOL; 
+
+echo "Even numbers:" . PHP_EOL;
+
+for ($i = 2; $i <= 20; $i += 2) {
+    echo $i . PHP_EOL;
+}
