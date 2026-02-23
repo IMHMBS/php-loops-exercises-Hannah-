@@ -1,6 +1,6 @@
 <?php
 
-$items = ["Olive Oil", "Pizza", "Biscuits", "Bread", "Tuna"];
+$items = ["Oil", "Pizza", "Biscuits", "Bread", "Tuna"];
 
 foreach ($items as $item) {
     echo "- " . $item . PHP_EOL;
